@@ -1,7 +1,7 @@
 #include <vector>
 
 #define GRID_SIZE 77
-#define PIECE_SIZE 8
+#define PIECE_SIZE 14
 
 struct Piece {
 	private:

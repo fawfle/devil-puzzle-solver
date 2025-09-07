@@ -22,65 +22,116 @@ PieceData::PieceData(int arr[PIECE_SIZE][PIECE_SIZE], int rows, int cols) {
 	}
 }
 
-// TODO: Sanity check piece arrays
-
 int piece1Array[PIECE_SIZE][PIECE_SIZE] = {
-	{ 1, 0, 1, 2, 1 },
-	{ 2, 0, 2, 0, 2 },
-	{ 1, 2, 1, 0, 0 },
+	{ 1, 2, 1, 2, 1, 2, 1 },
+	{ 0, 0, 2, 0, 0, 0, 0 },
+	{ 1, 2, 1, 0, 1, 0, 0 },
+	{ 2, 0, 2, 0, 2, 0, 0 },
+	{ 1, 0, 1, 2, 1, 0, 0 },
+	{ 2, 0, 2, 0, 0, 0, 0 },
+	{ 1, 0, 1, 0, 0, 0, 0 },
 };
-PieceData piece1Data = PieceData(piece1Array, 3, 5);
+PieceData piece1Data = PieceData(piece1Array, 7, 7);
 
 int piece2Array[PIECE_SIZE][PIECE_SIZE] = {
-	{ 1, 2, 1, 0, 0 },
-	{ 0, 0, 2, 0, 0 },
-	{ 1, 2, 1, 2, 1 },
+	{ 1, 2, 1, 2, 1, 2, 1, 2, 1 },
+	{ 0, 0, 0, 0, 0, 0, 0, 0, 2 },
+	{ 0, 0, 0, 0, 1, 2, 1, 2, 1 },
+	{ 0, 0, 0, 0, 2, 0, 2, 0, 0 },
+	{ 0, 0, 0, 0, 1, 0, 1, 0, 0 },
 };
-PieceData piece2Data = PieceData(piece2Array, 3, 5);
+PieceData piece2Data = PieceData(piece2Array, 5, 9);
 
 int piece3Array[PIECE_SIZE][PIECE_SIZE] = {
-	{ 0, 0, 0, 2, 0, 0, 0 },
-	{ 2, 1, 2, 1, 2, 1, 0 },
-	{ 0, 0, 0, 2, 0, 0, 0 },
-	{ 0, 0, 0, 1, 2, 1, 2 }
+	{ 0, 0, 0, 0, 1, 2, 1, 2 },
+	{ 0, 0, 0, 0, 0, 0, 2, 0 },
+	{ 1, 2, 1, 0, 1, 2, 1, 0 },
+	{ 2, 0, 2, 0, 2, 0, 0, 0 },
+	{ 1, 0, 1, 2, 1, 2, 0, 0 },
+	{ 0, 0, 2, 0, 2, 0, 0, 0 },
+	{ 0, 0, 1, 0, 1, 0, 0, 0 },
+	{ 0, 0, 0, 0, 2, 0, 0, 0 },
+	{ 0, 0, 0, 0, 1, 0, 0, 0 },
 };
-PieceData piece3Data = PieceData(piece3Array, 4, 7);
+PieceData piece3Data = PieceData(piece3Array, 9, 8);
 
 int piece4Array[PIECE_SIZE][PIECE_SIZE] = {
-	{ 1, 2, 1, 0, 0 },
-	{ 2, 0, 2, 0, 0 },
-	{ 1, 0, 1, 2, 1 },
+	{ 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0 },
+	{ 0, 0, 1, 2, 1, 2, 1, 2, 1, 2, 1 },
+	{ 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0 },
+	{ 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0 },
 };
-PieceData piece4Data = PieceData(piece4Array, 3, 5);
+PieceData piece4Data = PieceData(piece4Array, 5, 11);
 
 int piece5Array[PIECE_SIZE][PIECE_SIZE] = {
-	{ 2, 1, 2, 1, 2, 1, 0, 0 },
-	{ 0, 0, 0, 0, 0, 2, 0, 0 },
-	{ 0, 0, 0, 0, 0, 1, 0, 1 },
-	{ 0, 0, 0, 0, 0, 2, 0, 2 },
-	{ 0, 0, 0, 0, 0, 1, 2, 1 },
+	{ 1, 2, 1, 2, 1 },
+	{ 2, 0, 0, 0, 0 },
+	{ 1, 2, 1, 0, 0 },
+	{ 2, 0, 0, 0, 0 },
+	{ 1, 0, 0, 0, 0 },
 };
-PieceData piece5Data = PieceData(piece5Array, 5, 8);
+PieceData piece5Data = PieceData(piece5Array, 5, 5);
 
 int piece6Array[PIECE_SIZE][PIECE_SIZE] = {
-	{ 1, 2, 1 },
-	{ 2, 0, 2 },
-	{ 1, 0, 1 },
-	{ 2, 0, 2 },
-	{ 1, 0, 1 },
+	{ 0, 0, 0, 0, 1 },
+	{ 0, 0, 0, 0, 2 },
+	{ 0, 0, 0, 0, 1 },
+	{ 0, 0, 0, 0, 2 },
+	{ 0, 0, 0, 0, 1 },
+	{ 0, 0, 0, 0, 2 },
+	{ 1, 2, 1, 2, 1 },
 };
-PieceData piece6Data = PieceData(piece6Array, 5, 3);
+PieceData piece6Data = PieceData(piece6Array, 7, 5);
 
 int piece7Array[PIECE_SIZE][PIECE_SIZE] = {
-	{ 0, 0, 1, 0, 0, 0 },
-	{ 0, 0, 2, 0, 0, 0 },
-	{ 0, 0, 1, 0, 0, 0 },
-	{ 0, 0, 2, 0, 0, 0 },
-	{ 1, 2, 1, 2, 1, 2 },
+	{ 0, 0, 0, 0, 1 },
+	{ 0, 0, 0, 0, 2 },
+	{ 0, 0, 0, 0, 1 },
+	{ 0, 0, 0, 0, 2 },
+	{ 0, 0, 1, 2, 1 },
+	{ 0, 0, 0, 0, 2 },
+	{ 1, 2, 1, 2, 1 },
+	{ 2, 0, 0, 0, 0 },
 };
-PieceData piece7Data = PieceData(piece7Array, 5, 6);
+PieceData piece7Data = PieceData(piece7Array, 8, 5);
 
- PieceData pieceDataList[PIECE_COUNT] = { piece1Data, piece2Data, piece3Data, piece4Data, piece5Data, piece6Data, piece7Data };
+int piece8Array[PIECE_SIZE][PIECE_SIZE] = {
+	{ 1, 2, 1 },
+	{ 2, 0, 0 },
+	{ 1, 0, 0 },
+	{ 2, 0, 0 },
+	{ 1, 0, 0 },
+	{ 2, 0, 0 },
+	{ 1, 0, 0 },
+	{ 2, 0, 0 }
+};
+PieceData piece8Data = PieceData(piece8Array, 8, 3);
+
+int piece9Array[PIECE_SIZE][PIECE_SIZE] = {
+	{ 0, 0, 1, 0, 0, 0, 0 },
+	{ 0, 0, 2, 0, 0, 0, 0 },
+	{ 0, 2, 1, 2, 1, 0, 0 },
+	{ 0, 0, 2, 0, 2, 0, 0 },
+	{ 0, 0, 1, 0, 1, 0, 0 },
+	{ 0, 0, 0, 0, 2, 0, 0 },
+	{ 1, 2, 1, 2, 1, 0, 0 },
+	{ 0, 0, 0, 0, 2, 0, 0 },
+	{ 0, 0, 0, 0, 1, 2, 1 },
+};
+PieceData piece9Data = PieceData(piece9Array, 9, 7);
+
+int piece10Array[PIECE_SIZE][PIECE_SIZE] = {
+	{ 0, 0, 1, 0, 1 },
+	{ 0, 0, 2, 0, 2 },
+	{ 1, 2, 1, 2, 1 },
+	{ 2, 0, 0, 0, 0 },
+	{ 1, 2, 1, 2, 1 },
+	{ 2, 0, 0, 0, 0 },
+};
+PieceData piece10Data = PieceData(piece10Array, 6, 5);
+
+PieceData pieceDataList[PIECE_COUNT] = { piece1Data, piece2Data, piece3Data, piece4Data, piece5Data, piece6Data, piece7Data, piece8Data, piece9Data };
 
 bool pieceSanityCheck(PieceData p) {
 	// parity is whatever number is in the odd space

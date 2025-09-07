@@ -8,8 +8,8 @@
 bool ExactCoverSolver::search(int k) {
 	// if the root header is the only column, the algorithm completes
 	// hardcoding solution size and avoiding a boolean check. Idk if it matters for performance, but this isn't a general purpose program
-	if (solution.size() > 1) std::cout << "SOL SIZE: " << solution.size() << std::endl;
-	if (rootHeader->right == rootHeader || solution.size() == PIECE_SIZE) {
+	std::cout << k;
+	if (rootHeader->right == rootHeader || solution.size() == PIECE_COUNT) {
 		//printSolution();
 		// if terminate after one solution, return true
 		solutions++;
@@ -18,7 +18,7 @@ bool ExactCoverSolver::search(int k) {
 	}
 
 	// Select based on size heuristic
-	ColumnHeader* c = selectSmallestColumn();
+	ColumnHeader* c = rootHeader->right->column; //selectSmallestColumn();
 	// remove selected column
 	cover(c);
 

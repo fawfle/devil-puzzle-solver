@@ -226,7 +226,7 @@ int main() {
 		int pieceIndex = 0;
 
 		for (int j = 0; j < PIECE_COUNT; j++) {
-			cout << solver.getMatrix()[startIndex + j];
+			//cout << solver.getMatrix()[startIndex + j];
 			if (solver.getMatrix()[startIndex + j] == 1) {
 				pieceIndex = j;
 				//break;
@@ -234,10 +234,10 @@ int main() {
 		}
 
 
-		cout << "|";
+		//cout << "|";
 
 		for (int j = 0; j < matrixWidth - PIECE_COUNT; j++) {
-			cout << solver.getMatrix()[startIndex + pieces.size() + j] << "";
+			//cout << solver.getMatrix()[startIndex + pieces.size() + j] << "";
 			if (solver.getMatrix()[startIndex + PIECE_COUNT + j] == 1) {
 				int x, y;
 				columnToCellIndex(j, y, x);
@@ -245,7 +245,7 @@ int main() {
 			}
 		}
 
-		cout << endl;
+		//cout << endl;
 	}
 
 
