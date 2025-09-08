@@ -141,9 +141,9 @@ int main() {
 	}
 	convertGrid(gridArray);
 
-	Vec3 colors[200];
+	Vec3 colors[205];
 
-	for (int i = 0; i < 200; i++) {
+	for (int i = 0; i < 205; i++) {
 		colors[i] = Vec3(randd(), randd(), randd());
 	}
 
@@ -161,8 +161,8 @@ int main() {
 
 	vector<short> moves;
 
-	int matrixHeight;
-	int matrixWidth;
+	long matrixHeight;
+	long matrixWidth;
 
 	vector<Piece> pieces;
 	
@@ -198,7 +198,7 @@ int main() {
 	}
 	*/
 
-	cout << "allocating matrix array" << endl;
+	cout << "allocating matrix array..." << endl;
 	short *matrix = new short[moves.size()];
 
 	// https://stackoverflow.com/questions/2923272/how-to-convert-vector-to-array
@@ -210,6 +210,7 @@ int main() {
 
 	cout << "creating solver..." << endl;
 	ExactCoverSolver solver = ExactCoverSolver(matrixHeight, matrixWidth, matrix, true);
+
 
 	// cover blocked grid squares
 	solver.coverZeroColumns();
@@ -232,10 +233,10 @@ int main() {
 	
 	// set color array to match solution
 	for (uint i = 0; i < solution.size(); i++) {
-		int startIndex = solution.at(i)->row * matrixWidth;
-		int pieceIndex = 0;
+		long startIndex = solution.at(i)->row * (long)matrixWidth;
+		long pieceIndex = 0;
 
-		for (int j = 0; j < PIECE_COUNT; j++) {
+		for (long j = 0; j < PIECE_COUNT; j++) {
 			//cout << solver.getMatrix()[startIndex + j];
 			if (solver.getMatrix()[startIndex + j] == 1) {
 				pieceIndex = j;
@@ -246,10 +247,11 @@ int main() {
 
 		//cout << "|";
 
-		for (int j = 0; j < matrixWidth - PIECE_COUNT; j++) {
+		for (long j = 0; j < matrixWidth - PIECE_COUNT; j++) {
 			//cout << solver.getMatrix()[startIndex + pieces.size() + j] << "";
-			if (solver.getMatrix()[startIndex + PIECE_COUNT + j] == 1) {
-				int x, y;
+			long index = startIndex + (long)PIECE_COUNT + j;
+			if (solver.getMatrix()[index] == 1) {
+				long x, y;
 				columnToCellIndex(j, y, x);
 				colorArray[x][y] = colors[pieceIndex];
 			}

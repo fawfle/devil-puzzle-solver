@@ -43,8 +43,8 @@ struct Piece {
 		friend bool operator != (const Piece p1, const Piece p2);
 };
 
-int cellToColumnIndex(int i, int j);
-void columnToCellIndex(int columnIndex, int &i, int &j);
+long cellToColumnIndex(long i, long j);
+void columnToCellIndex(long columnIndex, long &i, long &j);
 
 // get number of valid grid cells, for constructing columns
 // int getValidGridCells(int arr[GRID_SIZE][GRID_SIZE]);
@@ -59,6 +59,6 @@ void addMoveRows(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, int 
 // 1d vector with rows of length (getGridSize + pieceCount);
 void addAllMoves(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, int pieceCount, int pieceIndex, Piece piece);
 
-void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, std::vector<Piece> pieces, int &matrixHeight, int &matrixWidth);
+void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, std::vector<Piece> pieces, long &matrixHeight, long &matrixWidth);
 // void createPolyominoMatrix(int grid[GRID_SI:w
 // ZE][GRID_SIZE], int (&moves)[MATRIX_SIZE], std::vector<Piece> pieces, int &matrixHeight, int &matrixWidth);

@@ -10,7 +10,7 @@ Piece::Piece(int arr[PIECE_SIZE][PIECE_SIZE]) {
 	updateBoundingBox();
 }
 
-void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, std::vector<Piece> pieces, int &matrixHeight, int &matrixWidth) {
+void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, std::vector<Piece> pieces, long &matrixHeight, long &matrixWidth) {
 	int pieceCount = pieces.size();
 
 	matrixWidth = pieceCount + GRID_SIZE * GRID_SIZE;
@@ -22,21 +22,6 @@ void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &m
 
 	matrixHeight = moves.size() / matrixWidth;
 }
-
-/*
-void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], int (&moves)[], std::vector<Piece> pieces, int &matrixHeight, int &matrixWidth) {
-	int pieceCount = pieces.size();
-
-	matrixWidth = pieceCount + GRID_SIZE * GRID_SIZE;
-
-	// add every possible move for every piece
-	for (int i = 0; i < pieceCount; i++) {
-		addAllMoves(grid, moves, pieceCount, i, pieces.at(i));
-	}
-
-	matrixHeight = moves.size() / matrixWidth;
-}
-*/
 
 void addAllMoves(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, int pieceCount, int pieceIndex, Piece piece) {
 	std::vector<Piece> pieceOrientations = getUniqueOrientations(piece);
@@ -239,11 +224,11 @@ int getGridSize(int arr[GRID_SIZE][GRID_SIZE]) {
 */
 
 
-int cellToColumnIndex(int i, int j) { 
+long cellToColumnIndex(long i, long j) { 
 	return i * GRID_SIZE + j; 
 }
 
-void columnToCellIndex(int columnIndex, int &i, int &j) {
+void columnToCellIndex(long columnIndex, long &i, long &j) {
 	i = columnIndex / GRID_SIZE;
 	j = columnIndex % GRID_SIZE;
 }
