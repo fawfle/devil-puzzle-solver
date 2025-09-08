@@ -1,7 +1,7 @@
 #include <vector>
 
 #define GRID_SIZE 77
-#define PIECE_SIZE 14
+#define PIECE_SIZE 23
 
 
 #define MATRIX_WIDTH 456421

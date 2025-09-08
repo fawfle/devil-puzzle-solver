@@ -1,6 +1,6 @@
 #define GRID_SIZE 77
-#define PIECE_SIZE 14
-#define PIECE_COUNT 200
+#define PIECE_SIZE 23
+#define PIECE_COUNT 99
 
 
 struct PieceData {

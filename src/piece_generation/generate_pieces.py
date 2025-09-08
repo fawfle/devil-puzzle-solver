@@ -2,7 +2,7 @@ import random
 import colorsys
 from PIL import Image
 
-im = Image.open("./Octagonal Puzzle 200pc Process Image.png").copy();
+im = Image.open("./Mind_Bending_Puzzle_-_100pc Process Image.png").copy();
 
 class PixelData:
     def __init__(self, x, y, color) -> None:
@@ -46,8 +46,8 @@ def check_piece(pixel: PixelData, res: list[tuple[int, int]]):
 print("w:" + str(im.size[0]))
 print("h:" + str(im.size[1]))
 
-IMAGE_OFFSET_X = 3;
-IMAGE_OFFSET_Y = 2;
+IMAGE_OFFSET_X = 1;
+IMAGE_OFFSET_Y = 0;
 
 IMAGE_STEP = 24;
 
@@ -183,4 +183,4 @@ pieceArrayText += "};"
 
 outfile.write(pieceArrayText);
 
-# im.show();
+im.show();
