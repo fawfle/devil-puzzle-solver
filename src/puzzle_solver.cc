@@ -28,6 +28,8 @@ struct Vec3 {
 	}
 };
 
+// TODO: write output to a file as well (duration, solutions found)
+// TODO: save opengl image
 
 // GLAD gl loading library https://github.com/Dav1dde/glad/tree/glad2
 // drawing tutorial https://open.gl/drawing
@@ -151,9 +153,13 @@ int main() {
 		return -1;
 	}
 	
+	if (!pieceCellCountSanityCheck(gridArray, pieceDataList)) {
+		return -1;
+	}
+	
 	cutoutGrid(colorArray, gridArray);
 
-	vector<int> moves;
+	vector<short> moves;
 
 	int matrixHeight;
 	int matrixWidth;
@@ -179,8 +185,8 @@ int main() {
 
 		pieces.push_back(Piece(pieceDataList[i].arr));
 	}
-	
 
+	cout << "creating matrix..." << endl;
 	createPolyominoMatrix(gridArray, moves, pieces, matrixHeight, matrixWidth);
 
 	/*
@@ -192,7 +198,8 @@ int main() {
 	}
 	*/
 
-	int *matrix = new int[moves.size()];
+	cout << "allocating matrix array" << endl;
+	short *matrix = new short[moves.size()];
 
 	// https://stackoverflow.com/questions/2923272/how-to-convert-vector-to-array
 	matrix = moves.data();
@@ -201,10 +208,13 @@ int main() {
 	cout << "Height: " << matrixHeight << endl;
 	cout << "Width: " << matrixWidth << endl;
 
+	cout << "creating solver..." << endl;
 	ExactCoverSolver solver = ExactCoverSolver(matrixHeight, matrixWidth, matrix, true);
+
 	// cover blocked grid squares
 	solver.coverZeroColumns();
 
+	cout << "searching..." << endl;
 	chrono::steady_clock::time_point start = chrono::steady_clock::now();
 	solver.search();
 	chrono::steady_clock::time_point end = chrono::steady_clock::now();

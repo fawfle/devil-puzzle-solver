@@ -6,54 +6,54 @@ int piece1Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 2, 1, 0, 0, },
 { 0, 2, 0, 0, 0, 0, },
 { 0, 1, 0, 0, 0, 0, },
-}
-PieceData piece1Data = PieceData(piece1Array, 7, 6)
+};
+PieceData piece1Data = PieceData(piece1Array, 7, 6);
 int piece2Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
 { 0, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 0, },
 { 1, 2, 1, 0, 0, },
-}
-PieceData piece2Data = PieceData(piece2Array, 5, 5)
+};
+PieceData piece2Data = PieceData(piece2Array, 5, 5);
 int piece3Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, },
 { 0, 0, 0, 0, 2, 0, },
 { 0, 0, 1, 2, 1, 0, },
 { 0, 0, 2, 0, 2, 0, },
 { 1, 2, 1, 0, 1, 2, },
-}
-PieceData piece3Data = PieceData(piece3Array, 5, 6)
+};
+PieceData piece3Data = PieceData(piece3Array, 5, 6);
 int piece4Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 2, },
 { 1, 2, 1, 0, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece4Data = PieceData(piece4Array, 5, 5)
+};
+PieceData piece4Data = PieceData(piece4Array, 5, 5);
 int piece5Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, 0, 1, },
 { 0, 0, 0, 2, 0, 2, },
 { 0, 1, 2, 1, 2, 1, },
 { 0, 2, 0, 0, 0, 2, },
 { 2, 1, 0, 0, 0, 1, },
-}
-PieceData piece5Data = PieceData(piece5Array, 5, 6)
+};
+PieceData piece5Data = PieceData(piece5Array, 5, 6);
 int piece6Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, },
 { 2, 0, 0, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece6Data = PieceData(piece6Array, 3, 7)
+};
+PieceData piece6Data = PieceData(piece6Array, 3, 7);
 int piece7Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 1, 0, 0, 0, 1, },
 { 2, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece7Data = PieceData(piece7Array, 5, 5)
+};
+PieceData piece7Data = PieceData(piece7Array, 5, 5);
 int piece8Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 1, 0, },
 { 2, 0, 2, 0, 2, 0, },
@@ -61,8 +61,8 @@ int piece8Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, },
 { 0, 0, 0, 0, 2, 0, },
-}
-PieceData piece8Data = PieceData(piece8Array, 6, 6)
+};
+PieceData piece8Data = PieceData(piece8Array, 6, 6);
 int piece9Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, },
 { 2, 0, 0, },
@@ -70,8 +70,8 @@ int piece9Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 2, },
 { 1, 2, 1, },
 { 0, 0, 2, },
-}
-PieceData piece9Data = PieceData(piece9Array, 6, 3)
+};
+PieceData piece9Data = PieceData(piece9Array, 6, 3);
 int piece10Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
@@ -80,8 +80,8 @@ int piece10Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 1, 2, 1, 2, 1, },
-}
-PieceData piece10Data = PieceData(piece10Array, 7, 7)
+};
+PieceData piece10Data = PieceData(piece10Array, 7, 7);
 int piece11Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
@@ -91,8 +91,8 @@ int piece11Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece11Data = PieceData(piece11Array, 8, 5)
+};
+PieceData piece11Data = PieceData(piece11Array, 8, 5);
 int piece12Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 0, },
@@ -101,15 +101,15 @@ int piece12Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece12Data = PieceData(piece12Array, 7, 5)
+};
+PieceData piece12Data = PieceData(piece12Array, 7, 5);
 int piece13Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 2, 0, 0, 0, 0, 0, 2, },
 { 0, 1, 0, 1, 2, 1, 2, 1, },
 { 0, 2, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece13Data = PieceData(piece13Array, 4, 8)
+};
+PieceData piece13Data = PieceData(piece13Array, 4, 8);
 int piece14Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
@@ -119,32 +119,32 @@ int piece14Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, },
-}
-PieceData piece14Data = PieceData(piece14Array, 8, 7)
+};
+PieceData piece14Data = PieceData(piece14Array, 8, 7);
 int piece15Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, },
 { 2, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, },
 { 2, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, },
-}
-PieceData piece15Data = PieceData(piece15Array, 5, 6)
+};
+PieceData piece15Data = PieceData(piece15Array, 5, 6);
 int piece16Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece16Data = PieceData(piece16Array, 5, 7)
+};
+PieceData piece16Data = PieceData(piece16Array, 5, 7);
 int piece17Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 2, 0, 0, },
 { 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece17Data = PieceData(piece17Array, 5, 7)
+};
+PieceData piece17Data = PieceData(piece17Array, 5, 7);
 int piece18Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
@@ -153,14 +153,14 @@ int piece18Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece18Data = PieceData(piece18Array, 7, 7)
+};
+PieceData piece18Data = PieceData(piece18Array, 7, 7);
 int piece19Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 2, 1, 2, 1, },
 { 2, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece19Data = PieceData(piece19Array, 3, 7)
+};
+PieceData piece19Data = PieceData(piece19Array, 3, 7);
 int piece20Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
@@ -170,8 +170,8 @@ int piece20Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
-}
-PieceData piece20Data = PieceData(piece20Array, 8, 5)
+};
+PieceData piece20Data = PieceData(piece20Array, 8, 5);
 int piece21Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, 0, },
@@ -180,8 +180,8 @@ int piece21Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 1, 2, 1, 0, },
 { 0, 0, 2, 0, 0, 0, 2, 0, },
 { 0, 0, 1, 2, 1, 2, 1, 0, },
-}
-PieceData piece21Data = PieceData(piece21Array, 7, 8)
+};
+PieceData piece21Data = PieceData(piece21Array, 7, 8);
 int piece22Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
@@ -190,16 +190,16 @@ int piece22Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 0, 0, 1, },
-}
-PieceData piece22Data = PieceData(piece22Array, 7, 7)
+};
+PieceData piece22Data = PieceData(piece22Array, 7, 7);
 int piece23Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, },
 { 2, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 0, 0, 1, },
-}
-PieceData piece23Data = PieceData(piece23Array, 5, 7)
+};
+PieceData piece23Data = PieceData(piece23Array, 5, 7);
 int piece24Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, },
@@ -210,8 +210,8 @@ int piece24Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 2, },
 { 0, 0, 2, 0, 2, 0, },
 { 0, 0, 1, 0, 1, 0, },
-}
-PieceData piece24Data = PieceData(piece24Array, 9, 6)
+};
+PieceData piece24Data = PieceData(piece24Array, 9, 6);
 int piece25Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
@@ -220,15 +220,15 @@ int piece25Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
-}
-PieceData piece25Data = PieceData(piece25Array, 7, 5)
+};
+PieceData piece25Data = PieceData(piece25Array, 7, 5);
 int piece26Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
-}
-PieceData piece26Data = PieceData(piece26Array, 4, 5)
+};
+PieceData piece26Data = PieceData(piece26Array, 4, 5);
 int piece27Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
@@ -240,8 +240,8 @@ int piece27Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, 2, 0, 2, },
 { 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
-}
-PieceData piece27Data = PieceData(piece27Array, 10, 7)
+};
+PieceData piece27Data = PieceData(piece27Array, 10, 7);
 int piece28Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, },
@@ -250,8 +250,8 @@ int piece28Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, 0, },
 { 0, 0, 1, 0, 0, },
 { 0, 0, 2, 0, 0, },
-}
-PieceData piece28Data = PieceData(piece28Array, 7, 5)
+};
+PieceData piece28Data = PieceData(piece28Array, 7, 5);
 int piece29Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 1, 2, 1, },
@@ -259,8 +259,8 @@ int piece29Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, },
 { 2, 0, 2, 0, 0, },
 { 1, 0, 1, 0, 0, },
-}
-PieceData piece29Data = PieceData(piece29Array, 6, 5)
+};
+PieceData piece29Data = PieceData(piece29Array, 6, 5);
 int piece30Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
@@ -273,8 +273,8 @@ int piece30Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 0, 0, },
 { 2, 0, 2, 0, 0, },
 { 1, 0, 1, 0, 0, },
-}
-PieceData piece30Data = PieceData(piece30Array, 11, 5)
+};
+PieceData piece30Data = PieceData(piece30Array, 11, 5);
 int piece31Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 0, 0, 2, },
@@ -289,8 +289,8 @@ int piece31Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, },
 { 0, 0, 2, },
 { 0, 0, 1, },
-}
-PieceData piece31Data = PieceData(piece31Array, 13, 3)
+};
+PieceData piece31Data = PieceData(piece31Array, 13, 3);
 int piece32Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 2, },
@@ -298,8 +298,8 @@ int piece32Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 0, },
-}
-PieceData piece32Data = PieceData(piece32Array, 6, 5)
+};
+PieceData piece32Data = PieceData(piece32Array, 6, 5);
 int piece33Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, },
 { 0, 0, 2, 0, },
@@ -309,16 +309,16 @@ int piece33Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 2, 0, },
 { 1, 0, 1, 0, },
 { 2, 0, 0, 0, },
-}
-PieceData piece33Data = PieceData(piece33Array, 8, 4)
+};
+PieceData piece33Data = PieceData(piece33Array, 8, 4);
 int piece34Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 2, 0, 2, },
 { 1, 0, 1, 0, 1, },
 { 2, 0, 0, 0, 2, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece34Data = PieceData(piece34Array, 5, 5)
+};
+PieceData piece34Data = PieceData(piece34Array, 5, 5);
 int piece35Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 2, 0, 0, },
@@ -329,8 +329,8 @@ int piece35Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, },
 { 2, 0, 0, },
 { 1, 0, 0, },
-}
-PieceData piece35Data = PieceData(piece35Array, 9, 3)
+};
+PieceData piece35Data = PieceData(piece35Array, 9, 3);
 int piece36Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 2, },
@@ -339,8 +339,8 @@ int piece36Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 1, },
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece36Data = PieceData(piece36Array, 7, 5)
+};
+PieceData piece36Data = PieceData(piece36Array, 7, 5);
 int piece37Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
@@ -349,8 +349,8 @@ int piece37Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
-}
-PieceData piece37Data = PieceData(piece37Array, 7, 5)
+};
+PieceData piece37Data = PieceData(piece37Array, 7, 5);
 int piece38Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, },
 { 0, 0, 2, },
@@ -359,16 +359,16 @@ int piece38Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, },
 { 2, 0, 2, },
 { 1, 2, 1, },
-}
-PieceData piece38Data = PieceData(piece38Array, 7, 3)
+};
+PieceData piece38Data = PieceData(piece38Array, 7, 3);
 int piece39Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 1, },
 { 0, 2, 0, 2, },
 { 0, 1, 2, 1, },
 { 0, 2, 0, 0, },
 { 2, 1, 0, 0, },
-}
-PieceData piece39Data = PieceData(piece39Array, 5, 4)
+};
+PieceData piece39Data = PieceData(piece39Array, 5, 4);
 int piece40Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
@@ -377,8 +377,8 @@ int piece40Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece40Data = PieceData(piece40Array, 7, 7)
+};
+PieceData piece40Data = PieceData(piece40Array, 7, 7);
 int piece41Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
@@ -387,22 +387,22 @@ int piece41Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece41Data = PieceData(piece41Array, 7, 5)
+};
+PieceData piece41Data = PieceData(piece41Array, 7, 5);
 int piece42Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, },
 { 0, 0, 0, 2, },
 { 0, 0, 0, 1, },
 { 0, 0, 0, 2, },
 { 2, 1, 2, 1, },
-}
-PieceData piece42Data = PieceData(piece42Array, 5, 4)
+};
+PieceData piece42Data = PieceData(piece42Array, 5, 4);
 int piece43Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 2, 0, 0, },
 { 1, 0, 1, 2, 1, 0, 0, },
-}
-PieceData piece43Data = PieceData(piece43Array, 3, 7)
+};
+PieceData piece43Data = PieceData(piece43Array, 3, 7);
 int piece44Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 2, },
@@ -410,14 +410,14 @@ int piece44Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
-}
-PieceData piece44Data = PieceData(piece44Array, 6, 5)
+};
+PieceData piece44Data = PieceData(piece44Array, 6, 5);
 int piece45Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 2, 1, 2, 0, },
 { 0, 2, 0, 0, 0, 0, },
 { 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece45Data = PieceData(piece45Array, 3, 6)
+};
+PieceData piece45Data = PieceData(piece45Array, 3, 6);
 int piece46Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 2, 0, 2, },
@@ -428,8 +428,8 @@ int piece46Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, },
 { 2, 0, 0, },
 { 1, 0, 0, },
-}
-PieceData piece46Data = PieceData(piece46Array, 9, 3)
+};
+PieceData piece46Data = PieceData(piece46Array, 9, 3);
 int piece47Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 2, 0, 0, },
 { 0, 1, 0, 1, },
@@ -437,14 +437,14 @@ int piece47Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 2, 1, },
 { 0, 2, 0, 0, },
 { 2, 1, 0, 0, },
-}
-PieceData piece47Data = PieceData(piece47Array, 6, 4)
+};
+PieceData piece47Data = PieceData(piece47Array, 6, 4);
 int piece48Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 0, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece48Data = PieceData(piece48Array, 3, 7)
+};
+PieceData piece48Data = PieceData(piece48Array, 3, 7);
 int piece49Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
@@ -455,16 +455,16 @@ int piece49Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 1, },
 { 0, 0, 2, 0, 2, },
 { 0, 0, 1, 0, 1, },
-}
-PieceData piece49Data = PieceData(piece49Array, 9, 5)
+};
+PieceData piece49Data = PieceData(piece49Array, 9, 5);
 int piece50Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 0, },
-}
-PieceData piece50Data = PieceData(piece50Array, 5, 7)
+};
+PieceData piece50Data = PieceData(piece50Array, 5, 7);
 int piece51Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
@@ -475,16 +475,16 @@ int piece51Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 1, 0, 0, },
 { 0, 0, 2, 0, 2, 0, 0, },
 { 0, 0, 1, 0, 1, 0, 0, },
-}
-PieceData piece51Data = PieceData(piece51Array, 9, 7)
+};
+PieceData piece51Data = PieceData(piece51Array, 9, 7);
 int piece52Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 2, },
 { 1, 2, 1, 0, 1, },
 { 2, 0, 2, 0, 2, },
 { 1, 0, 1, 0, 1, },
-}
-PieceData piece52Data = PieceData(piece52Array, 5, 5)
+};
+PieceData piece52Data = PieceData(piece52Array, 5, 5);
 int piece53Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, },
 { 2, 0, 0, },
@@ -495,8 +495,8 @@ int piece53Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, },
 { 2, 0, 2, },
 { 1, 0, 1, },
-}
-PieceData piece53Data = PieceData(piece53Array, 9, 3)
+};
+PieceData piece53Data = PieceData(piece53Array, 9, 3);
 int piece54Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 0, },
 { 0, 2, 0, 0, },
@@ -507,8 +507,8 @@ int piece54Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 2, 1, },
 { 0, 2, 0, 0, },
 { 0, 1, 0, 0, },
-}
-PieceData piece54Data = PieceData(piece54Array, 9, 4)
+};
+PieceData piece54Data = PieceData(piece54Array, 9, 4);
 int piece55Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, },
 { 2, 0, 0, 0, },
@@ -518,14 +518,14 @@ int piece55Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, },
 { 0, 0, 1, 0, },
 { 0, 0, 2, 0, },
-}
-PieceData piece55Data = PieceData(piece55Array, 8, 4)
+};
+PieceData piece55Data = PieceData(piece55Array, 8, 4);
 int piece56Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece56Data = PieceData(piece56Array, 3, 9)
+};
+PieceData piece56Data = PieceData(piece56Array, 3, 9);
 int piece57Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, },
 { 0, 0, 2, 0, },
@@ -534,16 +534,16 @@ int piece57Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, },
 { 2, 0, 2, 0, },
 { 1, 0, 1, 0, },
-}
-PieceData piece57Data = PieceData(piece57Array, 7, 4)
+};
+PieceData piece57Data = PieceData(piece57Array, 7, 4);
 int piece58Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece58Data = PieceData(piece58Array, 5, 11)
+};
+PieceData piece58Data = PieceData(piece58Array, 5, 11);
 int piece59Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, },
 { 2, 0, 2, 0, 0, },
@@ -552,8 +552,8 @@ int piece59Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
-}
-PieceData piece59Data = PieceData(piece59Array, 7, 5)
+};
+PieceData piece59Data = PieceData(piece59Array, 7, 5);
 int piece60Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, 0, },
 { 1, 0, 1, 2, 1, },
@@ -563,8 +563,8 @@ int piece60Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece60Data = PieceData(piece60Array, 8, 5)
+};
+PieceData piece60Data = PieceData(piece60Array, 8, 5);
 int piece61Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, },
 { 0, 0, 2, 0, 0, },
@@ -572,8 +572,8 @@ int piece61Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
-}
-PieceData piece61Data = PieceData(piece61Array, 6, 5)
+};
+PieceData piece61Data = PieceData(piece61Array, 6, 5);
 int piece62Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, },
 { 0, 0, 1, 0, },
@@ -582,14 +582,14 @@ int piece62Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 2, 0, },
 { 1, 0, 1, 0, },
 { 2, 0, 0, 0, },
-}
-PieceData piece62Data = PieceData(piece62Array, 7, 4)
+};
+PieceData piece62Data = PieceData(piece62Array, 7, 4);
 int piece63Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, 2, 1, },
-}
-PieceData piece63Data = PieceData(piece63Array, 3, 7)
+};
+PieceData piece63Data = PieceData(piece63Array, 3, 7);
 int piece64Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
@@ -597,8 +597,8 @@ int piece64Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece64Data = PieceData(piece64Array, 6, 5)
+};
+PieceData piece64Data = PieceData(piece64Array, 6, 5);
 int piece65Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, 0, 0, },
 { 0, 0, 0, 0, 0, 0, 2, 0, 0, },
@@ -607,24 +607,24 @@ int piece65Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece65Data = PieceData(piece65Array, 7, 9)
+};
+PieceData piece65Data = PieceData(piece65Array, 7, 9);
 int piece66Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, },
 { 0, 0, 1, 0, 0, 0, },
 { 2, 0, 2, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, },
-}
-PieceData piece66Data = PieceData(piece66Array, 5, 6)
+};
+PieceData piece66Data = PieceData(piece66Array, 5, 6);
 int piece67Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece67Data = PieceData(piece67Array, 5, 9)
+};
+PieceData piece67Data = PieceData(piece67Array, 5, 9);
 int piece68Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
@@ -633,22 +633,22 @@ int piece68Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 2, },
 { 0, 0, 1, 0, 0, },
-}
-PieceData piece68Data = PieceData(piece68Array, 7, 5)
+};
+PieceData piece68Data = PieceData(piece68Array, 7, 5);
 int piece69Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 2, 1, 2, 1, 2, },
 { 0, 0, 0, 0, 0, 2, 0, },
 { 2, 1, 2, 1, 2, 1, 0, },
-}
-PieceData piece69Data = PieceData(piece69Array, 3, 7)
+};
+PieceData piece69Data = PieceData(piece69Array, 3, 7);
 int piece70Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, },
 { 0, 0, 0, 0, 2, 0, },
 { 1, 0, 0, 0, 1, 0, },
 { 2, 0, 0, 0, 2, 0, },
 { 1, 2, 1, 2, 1, 2, },
-}
-PieceData piece70Data = PieceData(piece70Array, 5, 6)
+};
+PieceData piece70Data = PieceData(piece70Array, 5, 6);
 int piece71Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 0, 0, },
 { 2, 0, 2, 0, 0, },
@@ -656,31 +656,31 @@ int piece71Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
-}
-PieceData piece71Data = PieceData(piece71Array, 6, 5)
+};
+PieceData piece71Data = PieceData(piece71Array, 6, 5);
 int piece72Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 1, 0, },
 { 0, 2, 0, 2, 0, },
 { 0, 1, 0, 1, 0, },
 { 0, 2, 0, 2, 0, },
 { 2, 1, 2, 1, 2, },
-}
-PieceData piece72Data = PieceData(piece72Array, 5, 5)
+};
+PieceData piece72Data = PieceData(piece72Array, 5, 5);
 int piece73Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 0, 0, 0, 0, 0, },
 { 0, 2, 0, 0, 0, 0, 0, 0, },
 { 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 2, },
-}
-PieceData piece73Data = PieceData(piece73Array, 4, 8)
+};
+PieceData piece73Data = PieceData(piece73Array, 4, 8);
 int piece74Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, },
 { 0, 0, 0, 1, 2, 1, 2, 1, 2, 1, 2, 1, 0, },
 { 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, },
-}
-PieceData piece74Data = PieceData(piece74Array, 5, 13)
+};
+PieceData piece74Data = PieceData(piece74Array, 5, 13);
 int piece75Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
@@ -690,33 +690,33 @@ int piece75Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece75Data = PieceData(piece75Array, 8, 7)
+};
+PieceData piece75Data = PieceData(piece75Array, 8, 7);
 int piece76Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 0, 1, 0, 1, 0, },
 { 2, 0, 2, 0, 2, 0, 2, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, },
 { 2, 0, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece76Data = PieceData(piece76Array, 4, 8)
+};
+PieceData piece76Data = PieceData(piece76Array, 4, 8);
 int piece77Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece77Data = PieceData(piece77Array, 3, 11)
+};
+PieceData piece77Data = PieceData(piece77Array, 3, 11);
 int piece78Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece78Data = PieceData(piece78Array, 3, 7)
+};
+PieceData piece78Data = PieceData(piece78Array, 3, 7);
 int piece79Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece79Data = PieceData(piece79Array, 3, 5)
+};
+PieceData piece79Data = PieceData(piece79Array, 3, 5);
 int piece80Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 2, 0, 2, 0, 0, },
@@ -725,8 +725,8 @@ int piece80Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 2, 1, 0, 0, },
-}
-PieceData piece80Data = PieceData(piece80Array, 7, 7)
+};
+PieceData piece80Data = PieceData(piece80Array, 7, 7);
 int piece81Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, },
 { 1, 2, 1, },
@@ -734,14 +734,14 @@ int piece81Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, },
 { 0, 0, 2, },
 { 1, 2, 1, },
-}
-PieceData piece81Data = PieceData(piece81Array, 6, 3)
+};
+PieceData piece81Data = PieceData(piece81Array, 6, 3);
 int piece82Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 2, 1, 0, 1, },
 { 2, 0, 0, 0, 0, 0, 2, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece82Data = PieceData(piece82Array, 3, 9)
+};
+PieceData piece82Data = PieceData(piece82Array, 3, 9);
 int piece83Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, 0, 2, },
@@ -750,24 +750,24 @@ int piece83Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 0, 0, 1, 2, 1, },
-}
-PieceData piece83Data = PieceData(piece83Array, 7, 9)
+};
+PieceData piece83Data = PieceData(piece83Array, 7, 9);
 int piece84Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 2, },
 { 1, 0, 0, 0, 0, 0, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece84Data = PieceData(piece84Array, 5, 7)
+};
+PieceData piece84Data = PieceData(piece84Array, 5, 7);
 int piece85Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, },
 { 0, 0, 2, },
 { 1, 2, 1, },
 { 2, 0, 2, },
 { 1, 0, 1, },
-}
-PieceData piece85Data = PieceData(piece85Array, 5, 3)
+};
+PieceData piece85Data = PieceData(piece85Array, 5, 3);
 int piece86Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, },
 { 2, 0, 2, 0, 0, },
@@ -776,16 +776,16 @@ int piece86Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
-}
-PieceData piece86Data = PieceData(piece86Array, 7, 5)
+};
+PieceData piece86Data = PieceData(piece86Array, 7, 5);
 int piece87Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 0, 0, 2, },
 { 1, 2, 1, },
 { 2, 0, 0, },
 { 1, 0, 0, },
-}
-PieceData piece87Data = PieceData(piece87Array, 5, 3)
+};
+PieceData piece87Data = PieceData(piece87Array, 5, 3);
 int piece88Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, },
 { 0, 2, 0, 2, },
@@ -798,8 +798,8 @@ int piece88Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 0, },
 { 0, 2, 0, 0, },
 { 0, 1, 0, 0, },
-}
-PieceData piece88Data = PieceData(piece88Array, 11, 4)
+};
+PieceData piece88Data = PieceData(piece88Array, 11, 4);
 int piece89Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
@@ -807,8 +807,8 @@ int piece89Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
-}
-PieceData piece89Data = PieceData(piece89Array, 6, 5)
+};
+PieceData piece89Data = PieceData(piece89Array, 6, 5);
 int piece90Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
@@ -818,24 +818,24 @@ int piece90Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 2, 0, 0, 0, 2, },
 { 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
-}
-PieceData piece90Data = PieceData(piece90Array, 8, 7)
+};
+PieceData piece90Data = PieceData(piece90Array, 8, 7);
 int piece91Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 1, },
 { 2, 0, 0, 0, 2, 0, 2, },
 { 1, 0, 0, 0, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece91Data = PieceData(piece91Array, 5, 7)
+};
+PieceData piece91Data = PieceData(piece91Array, 5, 7);
 int piece92Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, 2, 1, 2, },
 { 0, 0, 0, 0, 0, 2, 0, },
 { 0, 1, 2, 1, 2, 1, 0, },
 { 0, 0, 0, 2, 0, 0, 0, },
 { 0, 0, 0, 1, 0, 0, 0, },
-}
-PieceData piece92Data = PieceData(piece92Array, 5, 7)
+};
+PieceData piece92Data = PieceData(piece92Array, 5, 7);
 int piece93Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 0, },
 { 2, 0, 2, 0, 0, },
@@ -846,16 +846,16 @@ int piece93Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece93Data = PieceData(piece93Array, 9, 5)
+};
+PieceData piece93Data = PieceData(piece93Array, 9, 5);
 int piece94Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, },
-}
-PieceData piece94Data = PieceData(piece94Array, 5, 7)
+};
+PieceData piece94Data = PieceData(piece94Array, 5, 7);
 int piece95Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 1, },
 { 0, 0, 0, 0, 2, 0, 2, },
@@ -868,23 +868,23 @@ int piece95Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
 { 0, 0, 1, 0, 0, 0, 0, },
-}
-PieceData piece95Data = PieceData(piece95Array, 11, 7)
+};
+PieceData piece95Data = PieceData(piece95Array, 11, 7);
 int piece96Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 2, },
 { 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece96Data = PieceData(piece96Array, 5, 7)
+};
+PieceData piece96Data = PieceData(piece96Array, 5, 7);
 int piece97Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 1, 2, 1, 2, 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, },
-}
-PieceData piece97Data = PieceData(piece97Array, 4, 14)
+};
+PieceData piece97Data = PieceData(piece97Array, 4, 14);
 int piece98Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 2, },
@@ -893,35 +893,35 @@ int piece98Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
 { 0, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece98Data = PieceData(piece98Array, 7, 7)
+};
+PieceData piece98Data = PieceData(piece98Array, 7, 7);
 int piece99Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 0, },
 { 0, 0, 2, 0, 2, 0, },
 { 0, 0, 1, 0, 1, 2, },
 { 2, 0, 2, 0, 0, 0, },
 { 1, 2, 1, 0, 0, 0, },
-}
-PieceData piece99Data = PieceData(piece99Array, 5, 6)
+};
+PieceData piece99Data = PieceData(piece99Array, 5, 6);
 int piece100Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, },
-}
-PieceData piece100Data = PieceData(piece100Array, 3, 7)
+};
+PieceData piece100Data = PieceData(piece100Array, 3, 7);
 int piece101Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 2, 0, 0, 0, 0, 0, 2, },
 { 0, 1, 0, 0, 0, 0, 0, 1, },
 { 0, 2, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece101Data = PieceData(piece101Array, 4, 8)
+};
+PieceData piece101Data = PieceData(piece101Array, 4, 8);
 int piece102Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 1, 2, 1, 0, 0, },
-}
-PieceData piece102Data = PieceData(piece102Array, 3, 11)
+};
+PieceData piece102Data = PieceData(piece102Array, 3, 11);
 int piece103Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, },
@@ -932,8 +932,8 @@ int piece103Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece103Data = PieceData(piece103Array, 9, 11)
+};
+PieceData piece103Data = PieceData(piece103Array, 9, 11);
 int piece104Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
@@ -942,8 +942,8 @@ int piece104Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece104Data = PieceData(piece104Array, 7, 5)
+};
+PieceData piece104Data = PieceData(piece104Array, 7, 5);
 int piece105Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
@@ -951,8 +951,8 @@ int piece105Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece105Data = PieceData(piece105Array, 6, 7)
+};
+PieceData piece105Data = PieceData(piece105Array, 6, 7);
 int piece106Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 2, },
@@ -961,8 +961,8 @@ int piece106Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece106Data = PieceData(piece106Array, 7, 5)
+};
+PieceData piece106Data = PieceData(piece106Array, 7, 5);
 int piece107Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, },
 { 0, 0, 2, },
@@ -971,15 +971,15 @@ int piece107Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 2, 0, 0, },
 { 1, 0, 0, },
-}
-PieceData piece107Data = PieceData(piece107Array, 7, 3)
+};
+PieceData piece107Data = PieceData(piece107Array, 7, 3);
 int piece108Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, },
 { 0, 0, 2, 0, },
 { 1, 2, 1, 0, },
 { 2, 0, 0, 0, },
-}
-PieceData piece108Data = PieceData(piece108Array, 4, 4)
+};
+PieceData piece108Data = PieceData(piece108Array, 4, 4);
 int piece109Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 2, 0, 0, },
@@ -988,8 +988,8 @@ int piece109Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, },
 { 2, 0, 2, },
 { 1, 2, 1, },
-}
-PieceData piece109Data = PieceData(piece109Array, 7, 3)
+};
+PieceData piece109Data = PieceData(piece109Array, 7, 3);
 int piece110Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 2, 0, 2, },
@@ -997,8 +997,8 @@ int piece110Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 2, },
 { 1, 0, 1, },
 { 2, 0, 0, },
-}
-PieceData piece110Data = PieceData(piece110Array, 6, 3)
+};
+PieceData piece110Data = PieceData(piece110Array, 6, 3);
 int piece111Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, },
 { 2, 0, 0, 0, },
@@ -1009,16 +1009,16 @@ int piece111Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, },
 { 2, 0, 0, 0, },
 { 1, 2, 1, 2, },
-}
-PieceData piece111Data = PieceData(piece111Array, 9, 4)
+};
+PieceData piece111Data = PieceData(piece111Array, 9, 4);
 int piece112Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece112Data = PieceData(piece112Array, 5, 9)
+};
+PieceData piece112Data = PieceData(piece112Array, 5, 9);
 int piece113Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 0, 1, 0, 1, },
@@ -1026,8 +1026,8 @@ int piece113Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, },
 { 0, 0, 1, 0, 0, },
-}
-PieceData piece113Data = PieceData(piece113Array, 6, 5)
+};
+PieceData piece113Data = PieceData(piece113Array, 6, 5);
 int piece114Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, },
 { 2, 0, 2, 0, 2, 0, },
@@ -1036,14 +1036,14 @@ int piece114Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 0, },
 { 0, 0, 0, 0, 2, 0, },
 { 0, 0, 0, 0, 1, 0, },
-}
-PieceData piece114Data = PieceData(piece114Array, 7, 6)
+};
+PieceData piece114Data = PieceData(piece114Array, 7, 6);
 int piece115Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece115Data = PieceData(piece115Array, 3, 7)
+};
+PieceData piece115Data = PieceData(piece115Array, 3, 7);
 int piece116Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, 0, 0, },
 { 2, 1, 2, 1, 0, 0, },
@@ -1051,8 +1051,8 @@ int piece116Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, 0, 0, },
 { 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 1, 2, 1, },
-}
-PieceData piece116Data = PieceData(piece116Array, 6, 6)
+};
+PieceData piece116Data = PieceData(piece116Array, 6, 6);
 int piece117Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, 0, },
 { 0, 0, 0, 2, 0, },
@@ -1063,50 +1063,50 @@ int piece117Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, 0, },
 { 0, 2, 0, 0, 0, },
 { 0, 1, 0, 0, 0, },
-}
-PieceData piece117Data = PieceData(piece117Array, 9, 5)
+};
+PieceData piece117Data = PieceData(piece117Array, 9, 5);
 int piece118Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 0, 0, 1, 2, 1, },
-}
-PieceData piece118Data = PieceData(piece118Array, 4, 5)
+};
+PieceData piece118Data = PieceData(piece118Array, 4, 5);
 int piece119Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece119Data = PieceData(piece119Array, 3, 9)
+};
+PieceData piece119Data = PieceData(piece119Array, 3, 9);
 int piece120Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, },
 { 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 0, },
-}
-PieceData piece120Data = PieceData(piece120Array, 4, 11)
+};
+PieceData piece120Data = PieceData(piece120Array, 4, 11);
 int piece121Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 1, 2, 1, 0, 0, },
-}
-PieceData piece121Data = PieceData(piece121Array, 3, 11)
+};
+PieceData piece121Data = PieceData(piece121Array, 3, 11);
 int piece122Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 0, },
-}
-PieceData piece122Data = PieceData(piece122Array, 5, 7)
+};
+PieceData piece122Data = PieceData(piece122Array, 5, 7);
 int piece123Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 0, 0, 1, },
-}
-PieceData piece123Data = PieceData(piece123Array, 5, 7)
+};
+PieceData piece123Data = PieceData(piece123Array, 5, 7);
 int piece124Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 2, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 1, 0, 0, 0, 0, 0, 0, },
@@ -1114,16 +1114,16 @@ int piece124Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 0, 0, 0, 0, 0, 0, },
 { 2, 0, 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece124Data = PieceData(piece124Array, 6, 9)
+};
+PieceData piece124Data = PieceData(piece124Array, 6, 9);
 int piece125Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 0, 0, 1, },
-}
-PieceData piece125Data = PieceData(piece125Array, 5, 7)
+};
+PieceData piece125Data = PieceData(piece125Array, 5, 7);
 int piece126Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, 0, 0, },
@@ -1134,8 +1134,8 @@ int piece126Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece126Data = PieceData(piece126Array, 9, 9)
+};
+PieceData piece126Data = PieceData(piece126Array, 9, 9);
 int piece127Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 2, },
@@ -1145,8 +1145,8 @@ int piece127Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
-}
-PieceData piece127Data = PieceData(piece127Array, 8, 5)
+};
+PieceData piece127Data = PieceData(piece127Array, 8, 5);
 int piece128Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, },
 { 0, 0, 2, },
@@ -1157,8 +1157,8 @@ int piece128Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, },
 { 2, 0, 0, },
 { 1, 0, 0, },
-}
-PieceData piece128Data = PieceData(piece128Array, 9, 3)
+};
+PieceData piece128Data = PieceData(piece128Array, 9, 3);
 int piece129Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 2, 0, 2, },
@@ -1166,8 +1166,8 @@ int piece129Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, 0, 2, 0, 2, },
 { 0, 0, 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, },
-}
-PieceData piece129Data = PieceData(piece129Array, 6, 9)
+};
+PieceData piece129Data = PieceData(piece129Array, 6, 9);
 int piece130Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, },
 { 0, 0, 0, 2, },
@@ -1177,69 +1177,69 @@ int piece130Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, },
 { 0, 0, 0, 1, },
 { 0, 0, 0, 2, },
-}
-PieceData piece130Data = PieceData(piece130Array, 8, 4)
+};
+PieceData piece130Data = PieceData(piece130Array, 8, 4);
 int piece131Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 2, 0, 2, },
 { 1, 0, 1, },
 { 2, 0, 0, },
 { 1, 0, 0, },
-}
-PieceData piece131Data = PieceData(piece131Array, 5, 3)
+};
+PieceData piece131Data = PieceData(piece131Array, 5, 3);
 int piece132Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece132Data = PieceData(piece132Array, 5, 5)
+};
+PieceData piece132Data = PieceData(piece132Array, 5, 5);
 int piece133Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 2, },
 { 0, 0, 1, 0, 0, },
 { 0, 0, 2, 0, 0, },
 { 0, 0, 1, 0, 0, },
-}
-PieceData piece133Data = PieceData(piece133Array, 5, 5)
+};
+PieceData piece133Data = PieceData(piece133Array, 5, 5);
 int piece134Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 0, },
 { 2, 0, 2, 0, 2, },
 { 1, 0, 1, 2, 1, },
 { 2, 0, 2, 0, 2, },
 { 1, 2, 1, 0, 1, },
-}
-PieceData piece134Data = PieceData(piece134Array, 5, 5)
+};
+PieceData piece134Data = PieceData(piece134Array, 5, 5);
 int piece135Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 2, },
 { 0, 0, 1, 0, 1, 0, 1, },
 { 0, 0, 2, 0, 2, 0, 2, },
 { 0, 0, 1, 0, 1, 2, 1, },
-}
-PieceData piece135Data = PieceData(piece135Array, 5, 7)
+};
+PieceData piece135Data = PieceData(piece135Array, 5, 7);
 int piece136Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece136Data = PieceData(piece136Array, 4, 7)
+};
+PieceData piece136Data = PieceData(piece136Array, 4, 7);
 int piece137Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, },
 { 0, 0, 0, 0, 0, 0, 2, 0, },
 { 0, 0, 0, 0, 0, 0, 1, 0, },
-}
-PieceData piece137Data = PieceData(piece137Array, 3, 8)
+};
+PieceData piece137Data = PieceData(piece137Array, 3, 8);
 int piece138Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece138Data = PieceData(piece138Array, 5, 5)
+};
+PieceData piece138Data = PieceData(piece138Array, 5, 5);
 int piece139Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
@@ -1248,24 +1248,24 @@ int piece139Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
-}
-PieceData piece139Data = PieceData(piece139Array, 7, 5)
+};
+PieceData piece139Data = PieceData(piece139Array, 7, 5);
 int piece140Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 0, 0, 0, 0, },
 { 2, 0, 2, 0, 0, 0, 0, },
 { 1, 0, 1, 0, 1, 0, 0, },
 { 2, 0, 2, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece140Data = PieceData(piece140Array, 5, 7)
+};
+PieceData piece140Data = PieceData(piece140Array, 5, 7);
 int piece141Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 1, 0, 1, },
 { 0, 0, 0, 2, 0, 2, },
 { 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece141Data = PieceData(piece141Array, 5, 6)
+};
+PieceData piece141Data = PieceData(piece141Array, 5, 6);
 int piece142Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 2, 1, },
 { 0, 2, 0, 2, },
@@ -1276,8 +1276,8 @@ int piece142Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 0, },
 { 0, 2, 0, 0, },
 { 0, 1, 0, 0, },
-}
-PieceData piece142Data = PieceData(piece142Array, 9, 4)
+};
+PieceData piece142Data = PieceData(piece142Array, 9, 4);
 int piece143Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 2, },
@@ -1286,8 +1286,8 @@ int piece143Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 0, 1, },
 { 2, 0, 0, 0, 0, 0, 2, 0, 2, },
 { 1, 0, 0, 0, 0, 0, 1, 2, 1, },
-}
-PieceData piece143Data = PieceData(piece143Array, 7, 9)
+};
+PieceData piece143Data = PieceData(piece143Array, 7, 9);
 int piece144Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 2, 1, 2, 1, },
 { 0, 2, 0, 0, 0, 0, },
@@ -1296,8 +1296,8 @@ int piece144Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 1, 2, 1, },
 { 0, 2, 0, 2, 0, 2, },
 { 2, 1, 2, 1, 0, 1, },
-}
-PieceData piece144Data = PieceData(piece144Array, 7, 6)
+};
+PieceData piece144Data = PieceData(piece144Array, 7, 6);
 int piece145Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
@@ -1305,8 +1305,8 @@ int piece145Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 0, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece145Data = PieceData(piece145Array, 6, 5)
+};
+PieceData piece145Data = PieceData(piece145Array, 6, 5);
 int piece146Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, },
@@ -1319,8 +1319,8 @@ int piece146Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece146Data = PieceData(piece146Array, 11, 9)
+};
+PieceData piece146Data = PieceData(piece146Array, 11, 9);
 int piece147Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
@@ -1330,16 +1330,16 @@ int piece147Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 0, 0, },
-}
-PieceData piece147Data = PieceData(piece147Array, 8, 5)
+};
+PieceData piece147Data = PieceData(piece147Array, 8, 5);
 int piece148Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, },
 { 2, 0, 2, 0, 0, },
 { 1, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
-}
-PieceData piece148Data = PieceData(piece148Array, 5, 5)
+};
+PieceData piece148Data = PieceData(piece148Array, 5, 5);
 int piece149Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, 0, 0, 0, 0, },
 { 0, 0, 0, 1, 0, 0, 0, 0, },
@@ -1349,23 +1349,23 @@ int piece149Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 1, 0, 1, 2, 1, },
 { 0, 2, 0, 2, 0, 0, 0, 0, },
 { 0, 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece149Data = PieceData(piece149Array, 8, 8)
+};
+PieceData piece149Data = PieceData(piece149Array, 8, 8);
 int piece150Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, },
-}
-PieceData piece150Data = PieceData(piece150Array, 4, 11)
+};
+PieceData piece150Data = PieceData(piece150Array, 4, 11);
 int piece151Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
-}
-PieceData piece151Data = PieceData(piece151Array, 5, 5)
+};
+PieceData piece151Data = PieceData(piece151Array, 5, 5);
 int piece152Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
@@ -1374,8 +1374,8 @@ int piece152Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
-}
-PieceData piece152Data = PieceData(piece152Array, 7, 5)
+};
+PieceData piece152Data = PieceData(piece152Array, 7, 5);
 int piece153Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
@@ -1385,55 +1385,55 @@ int piece153Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece153Data = PieceData(piece153Array, 8, 5)
+};
+PieceData piece153Data = PieceData(piece153Array, 8, 5);
 int piece154Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 0, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece154Data = PieceData(piece154Array, 4, 9)
+};
+PieceData piece154Data = PieceData(piece154Array, 4, 9);
 int piece155Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 0, },
 { 2, 0, 0, },
 { 1, 2, 1, },
 { 0, 0, 2, },
 { 1, 2, 1, },
-}
-PieceData piece155Data = PieceData(piece155Array, 5, 3)
+};
+PieceData piece155Data = PieceData(piece155Array, 5, 3);
 int piece156Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 2, },
 { 1, 0, 1, 2, 1, 0, 1, },
 { 2, 0, 0, 0, 2, 0, 2, },
 { 1, 2, 1, 2, 1, 0, 0, },
-}
-PieceData piece156Data = PieceData(piece156Array, 5, 7)
+};
+PieceData piece156Data = PieceData(piece156Array, 5, 7);
 int piece157Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 0, 1, },
 { 0, 0, 2, 0, 2, 0, 2, },
 { 0, 0, 1, 0, 1, 0, 1, },
 { 0, 0, 2, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
-}
-PieceData piece157Data = PieceData(piece157Array, 5, 7)
+};
+PieceData piece157Data = PieceData(piece157Array, 5, 7);
 int piece158Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, 0, },
 { 2, 0, 2, 0, 2, 0, 0, 0, },
 { 1, 0, 1, 0, 1, 2, 1, 2, },
 { 0, 0, 0, 0, 2, 0, 2, 0, },
 { 0, 0, 0, 0, 1, 0, 1, 0, },
-}
-PieceData piece158Data = PieceData(piece158Array, 5, 8)
+};
+PieceData piece158Data = PieceData(piece158Array, 5, 8);
 int piece159Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 1, },
 { 0, 0, 0, 0, 2, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 2, },
 { 1, 0, 1, 2, 1, 2, 1, },
-}
-PieceData piece159Data = PieceData(piece159Array, 5, 7)
+};
+PieceData piece159Data = PieceData(piece159Array, 5, 7);
 int piece160Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, },
@@ -1443,28 +1443,28 @@ int piece160Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 1, 2, 1, 2, 1, 2, },
-}
-PieceData piece160Data = PieceData(piece160Array, 8, 10)
+};
+PieceData piece160Data = PieceData(piece160Array, 8, 10);
 int piece161Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, 0, },
 { 0, 0, 1, 0, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, },
-}
-PieceData piece161Data = PieceData(piece161Array, 5, 8)
+};
+PieceData piece161Data = PieceData(piece161Array, 5, 8);
 int piece162Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 2, },
 { 1, 2, 1, 0, 1, },
 { 0, 0, 0, 0, 2, },
-}
-PieceData piece162Data = PieceData(piece162Array, 4, 5)
+};
+PieceData piece162Data = PieceData(piece162Array, 4, 5);
 int piece163Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece163Data = PieceData(piece163Array, 2, 9)
+};
+PieceData piece163Data = PieceData(piece163Array, 2, 9);
 int piece164Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 0, },
 { 2, 0, 0, 0, 0, },
@@ -1472,14 +1472,14 @@ int piece164Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
-}
-PieceData piece164Data = PieceData(piece164Array, 6, 5)
+};
+PieceData piece164Data = PieceData(piece164Array, 6, 5);
 int piece165Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 1, 0, 1, 0, 1, 2, 1, 2, 1, },
 { 0, 2, 0, 2, 0, 2, 0, 0, 0, 0, },
 { 2, 1, 2, 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece165Data = PieceData(piece165Array, 3, 10)
+};
+PieceData piece165Data = PieceData(piece165Array, 3, 10);
 int piece166Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
@@ -1487,14 +1487,14 @@ int piece166Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 0, 0, 0, },
-}
-PieceData piece166Data = PieceData(piece166Array, 6, 9)
+};
+PieceData piece166Data = PieceData(piece166Array, 6, 9);
 int piece167Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 1, },
-}
-PieceData piece167Data = PieceData(piece167Array, 3, 9)
+};
+PieceData piece167Data = PieceData(piece167Array, 3, 9);
 int piece168Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 0, 1, 2, 0, },
@@ -1504,20 +1504,20 @@ int piece168Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 0, 1, 0, 1, },
 { 2, 0, 2, 0, 2, 0, 2, },
 { 1, 0, 1, 0, 1, 2, 1, },
-}
-PieceData piece168Data = PieceData(piece168Array, 8, 7)
+};
+PieceData piece168Data = PieceData(piece168Array, 8, 7);
 int piece169Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, },
 { 2, 1, 2, 1, 2, 1, 0, 0, 0, 1, 0, 0, },
-}
-PieceData piece169Data = PieceData(piece169Array, 3, 12)
+};
+PieceData piece169Data = PieceData(piece169Array, 3, 12);
 int piece170Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, },
-}
-PieceData piece170Data = PieceData(piece170Array, 3, 13)
+};
+PieceData piece170Data = PieceData(piece170Array, 3, 13);
 int piece171Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, },
 { 0, 0, 0, 2, },
@@ -1526,32 +1526,32 @@ int piece171Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 0, 0, },
 { 0, 2, 0, 0, },
 { 0, 1, 0, 0, },
-}
-PieceData piece171Data = PieceData(piece171Array, 7, 4)
+};
+PieceData piece171Data = PieceData(piece171Array, 7, 4);
 int piece172Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 1, 2, 1, 2, },
 { 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, },
 { 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, },
-}
-PieceData piece172Data = PieceData(piece172Array, 5, 10)
+};
+PieceData piece172Data = PieceData(piece172Array, 5, 10);
 int piece173Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece173Data = PieceData(piece173Array, 5, 9)
+};
+PieceData piece173Data = PieceData(piece173Array, 5, 9);
 int piece174Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, },
-}
-PieceData piece174Data = PieceData(piece174Array, 5, 7)
+};
+PieceData piece174Data = PieceData(piece174Array, 5, 7);
 int piece175Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 0, 0, 1, },
@@ -1559,15 +1559,15 @@ int piece175Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 1, 2, 1, 0, 0, },
-}
-PieceData piece175Data = PieceData(piece175Array, 6, 7)
+};
+PieceData piece175Data = PieceData(piece175Array, 6, 7);
 int piece176Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 1, 2, 1, 0, 0, 0, 1, 0, 0, },
-}
-PieceData piece176Data = PieceData(piece176Array, 4, 11)
+};
+PieceData piece176Data = PieceData(piece176Array, 4, 11);
 int piece177Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 1, 0, 0, 0, 1, },
@@ -1575,8 +1575,8 @@ int piece177Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 1, },
 { 2, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece177Data = PieceData(piece177Array, 6, 5)
+};
+PieceData piece177Data = PieceData(piece177Array, 6, 5);
 int piece178Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, },
 { 0, 0, 0, 2, },
@@ -1585,8 +1585,8 @@ int piece178Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, },
 { 0, 0, 0, 2, },
 { 2, 1, 2, 1, },
-}
-PieceData piece178Data = PieceData(piece178Array, 7, 4)
+};
+PieceData piece178Data = PieceData(piece178Array, 7, 4);
 int piece179Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, },
 { 0, 0, 2, 0, },
@@ -1597,22 +1597,22 @@ int piece179Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, },
 { 2, 0, 0, 0, },
 { 1, 0, 0, 0, },
-}
-PieceData piece179Data = PieceData(piece179Array, 9, 4)
+};
+PieceData piece179Data = PieceData(piece179Array, 9, 4);
 int piece180Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 2, 0, 2, 0, 0, },
 { 1, 2, 1, 0, 1, 2, 1, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 1, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece180Data = PieceData(piece180Array, 5, 9)
+};
+PieceData piece180Data = PieceData(piece180Array, 5, 9);
 int piece181Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 2, },
 { 1, 0, 0, 0, 0, 0, 1, },
-}
-PieceData piece181Data = PieceData(piece181Array, 3, 7)
+};
+PieceData piece181Data = PieceData(piece181Array, 3, 7);
 int piece182Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 0, 0, 0, },
 { 0, 2, 0, 0, 0, },
@@ -1622,24 +1622,24 @@ int piece182Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 2, 0, },
 { 0, 0, 0, 1, 0, },
 { 0, 0, 0, 2, 0, },
-}
-PieceData piece182Data = PieceData(piece182Array, 8, 5)
+};
+PieceData piece182Data = PieceData(piece182Array, 8, 5);
 int piece183Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 0, 0, 1, },
 { 2, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece183Data = PieceData(piece183Array, 5, 5)
+};
+PieceData piece183Data = PieceData(piece183Array, 5, 5);
 int piece184Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 2, },
 { 0, 0, 1, 0, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 2, },
 { 1, 2, 1, 0, 0, 0, 0, },
-}
-PieceData piece184Data = PieceData(piece184Array, 5, 7)
+};
+PieceData piece184Data = PieceData(piece184Array, 5, 7);
 int piece185Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, },
@@ -1650,16 +1650,16 @@ int piece185Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 0, 1, 2, 1, },
-}
-PieceData piece185Data = PieceData(piece185Array, 9, 7)
+};
+PieceData piece185Data = PieceData(piece185Array, 9, 7);
 int piece186Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 2, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 2, 0, 2, 0, 0, },
 { 1, 0, 1, 0, 1, 0, 0, },
-}
-PieceData piece186Data = PieceData(piece186Array, 5, 7)
+};
+PieceData piece186Data = PieceData(piece186Array, 5, 7);
 int piece187Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 2, 0, 0, },
@@ -1668,23 +1668,23 @@ int piece187Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 1, 2, 1, 0, 0, },
 { 0, 2, 0, 2, 0, 0, },
 { 0, 1, 0, 1, 0, 0, },
-}
-PieceData piece187Data = PieceData(piece187Array, 7, 6)
+};
+PieceData piece187Data = PieceData(piece187Array, 7, 6);
 int piece188Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece188Data = PieceData(piece188Array, 4, 5)
+};
+PieceData piece188Data = PieceData(piece188Array, 4, 5);
 int piece189Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 0, 0, 1, 2, },
 { 0, 0, 0, 0, 0, 0, 2, 0, },
 { 0, 0, 0, 0, 0, 0, 1, 0, },
 { 0, 0, 0, 0, 0, 0, 2, 0, },
 { 1, 2, 1, 2, 1, 2, 1, 0, },
-}
-PieceData piece189Data = PieceData(piece189Array, 5, 8)
+};
+PieceData piece189Data = PieceData(piece189Array, 5, 8);
 int piece190Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 1, },
 { 0, 0, 2, 0, 2, },
@@ -1692,8 +1692,8 @@ int piece190Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
-}
-PieceData piece190Data = PieceData(piece190Array, 6, 5)
+};
+PieceData piece190Data = PieceData(piece190Array, 6, 5);
 int piece191Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
@@ -1703,8 +1703,8 @@ int piece191Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
-}
-PieceData piece191Data = PieceData(piece191Array, 8, 5)
+};
+PieceData piece191Data = PieceData(piece191Array, 8, 5);
 int piece192Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, },
 { 2, 0, 0, },
@@ -1714,16 +1714,16 @@ int piece192Array[PIECE_SIZE][PIECE_SIZE] = {
 { 2, 0, 0, },
 { 1, 0, 0, },
 { 2, 0, 0, },
-}
-PieceData piece192Data = PieceData(piece192Array, 8, 3)
+};
+PieceData piece192Data = PieceData(piece192Array, 8, 3);
 int piece193Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, },
 { 1, 0, 1, 0, 1, 0, 0, },
 { 2, 0, 2, 0, 2, 0, 0, },
 { 1, 2, 1, 2, 1, 0, 0, },
-}
-PieceData piece193Data = PieceData(piece193Array, 5, 7)
+};
+PieceData piece193Data = PieceData(piece193Array, 5, 7);
 int piece194Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
@@ -1732,23 +1732,23 @@ int piece194Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, },
 { 0, 0, 0, 0, 2, },
 { 1, 2, 1, 2, 1, },
-}
-PieceData piece194Data = PieceData(piece194Array, 7, 5)
+};
+PieceData piece194Data = PieceData(piece194Array, 7, 5);
 int piece195Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 0, 0, 0, 0, 0, },
 { 2, 0, 0, 0, 0, 0, 0, },
 { 1, 2, 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, 0, 0, },
-}
-PieceData piece195Data = PieceData(piece195Array, 4, 7)
+};
+PieceData piece195Data = PieceData(piece195Array, 4, 7);
 int piece196Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, },
 { 0, 0, 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, },
-}
-PieceData piece196Data = PieceData(piece196Array, 5, 11)
+};
+PieceData piece196Data = PieceData(piece196Array, 5, 11);
 int piece197Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 0, 0, 1, 2, 1, 2, },
 { 0, 0, 0, 0, 0, 0, 2, 0, },
@@ -1759,24 +1759,24 @@ int piece197Array[PIECE_SIZE][PIECE_SIZE] = {
 { 0, 0, 1, 0, 1, 0, 0, 0, },
 { 0, 0, 0, 0, 2, 0, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 0, 0, },
-}
-PieceData piece197Data = PieceData(piece197Array, 9, 8)
+};
+PieceData piece197Data = PieceData(piece197Array, 9, 8);
 int piece198Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, },
 { 2, 0, 0, 0, 0, },
 { 1, 2, 1, 0, 0, },
 { 2, 0, 0, 0, 0, },
 { 1, 0, 0, 0, 0, },
-}
-PieceData piece198Data = PieceData(piece198Array, 5, 5)
+};
+PieceData piece198Data = PieceData(piece198Array, 5, 5);
 int piece199Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 0, 0, 0, 0, 2, },
 { 0, 0, 0, 0, 1, 2, 1, 2, 1, },
 { 0, 0, 0, 0, 2, 0, 2, 0, 0, },
 { 0, 0, 0, 0, 1, 0, 1, 0, 0, },
-}
-PieceData piece199Data = PieceData(piece199Array, 5, 9)
+};
+PieceData piece199Data = PieceData(piece199Array, 5, 9);
 int piece200Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 2, 1, 2, 1, 2, 1, },
 { 0, 0, 2, 0, 0, 0, 0, },
@@ -1785,5 +1785,6 @@ int piece200Array[PIECE_SIZE][PIECE_SIZE] = {
 { 1, 0, 1, 2, 1, 0, 0, },
 { 2, 0, 2, 0, 0, 0, 0, },
 { 1, 0, 1, 0, 0, 0, 0, },
-}
-PieceData piece200Data = PieceData(piece200Array, 7, 7)
+};
+PieceData piece200Data = PieceData(piece200Array, 7, 7);
+PieceData pieceDataList[PIECE_COUNT] = { piece1Data, piece2Data, piece3Data, piece4Data, piece5Data, piece6Data, piece7Data, piece8Data, piece9Data, piece10Data, piece11Data, piece12Data, piece13Data, piece14Data, piece15Data, piece16Data, piece17Data, piece18Data, piece19Data, piece20Data, piece21Data, piece22Data, piece23Data, piece24Data, piece25Data, piece26Data, piece27Data, piece28Data, piece29Data, piece30Data, piece31Data, piece32Data, piece33Data, piece34Data, piece35Data, piece36Data, piece37Data, piece38Data, piece39Data, piece40Data, piece41Data, piece42Data, piece43Data, piece44Data, piece45Data, piece46Data, piece47Data, piece48Data, piece49Data, piece50Data, piece51Data, piece52Data, piece53Data, piece54Data, piece55Data, piece56Data, piece57Data, piece58Data, piece59Data, piece60Data, piece61Data, piece62Data, piece63Data, piece64Data, piece65Data, piece66Data, piece67Data, piece68Data, piece69Data, piece70Data, piece71Data, piece72Data, piece73Data, piece74Data, piece75Data, piece76Data, piece77Data, piece78Data, piece79Data, piece80Data, piece81Data, piece82Data, piece83Data, piece84Data, piece85Data, piece86Data, piece87Data, piece88Data, piece89Data, piece90Data, piece91Data, piece92Data, piece93Data, piece94Data, piece95Data, piece96Data, piece97Data, piece98Data, piece99Data, piece100Data, piece101Data, piece102Data, piece103Data, piece104Data, piece105Data, piece106Data, piece107Data, piece108Data, piece109Data, piece110Data, piece111Data, piece112Data, piece113Data, piece114Data, piece115Data, piece116Data, piece117Data, piece118Data, piece119Data, piece120Data, piece121Data, piece122Data, piece123Data, piece124Data, piece125Data, piece126Data, piece127Data, piece128Data, piece129Data, piece130Data, piece131Data, piece132Data, piece133Data, piece134Data, piece135Data, piece136Data, piece137Data, piece138Data, piece139Data, piece140Data, piece141Data, piece142Data, piece143Data, piece144Data, piece145Data, piece146Data, piece147Data, piece148Data, piece149Data, piece150Data, piece151Data, piece152Data, piece153Data, piece154Data, piece155Data, piece156Data, piece157Data, piece158Data, piece159Data, piece160Data, piece161Data, piece162Data, piece163Data, piece164Data, piece165Data, piece166Data, piece167Data, piece168Data, piece169Data, piece170Data, piece171Data, piece172Data, piece173Data, piece174Data, piece175Data, piece176Data, piece177Data, piece178Data, piece179Data, piece180Data, piece181Data, piece182Data, piece183Data, piece184Data, piece185Data, piece186Data, piece187Data, piece188Data, piece189Data, piece190Data, piece191Data, piece192Data, piece193Data, piece194Data, piece195Data, piece196Data, piece197Data, piece198Data, piece199Data, piece200Data, };

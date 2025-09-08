@@ -27,7 +27,7 @@ struct ColumnHeader: Node {
 // classes are private by default
 class ExactCoverSolver {
 	private:
-		int *matrix;
+		short *matrix;
 		Node *rootHeader;
 		Node *nodes;
 		std::vector<Node *> solution;
@@ -35,18 +35,19 @@ class ExactCoverSolver {
 		bool targetSolutions = false;
 		uint targetSolutionSize;
 		long solutions = 0;
+		int deepestK = 0;
 		ColumnHeader* selectSmallestColumn();
 
 		int deepest = 0;
 	public:
-		ExactCoverSolver(int m, int n, int matrix[], bool searchOneSolution = true);
+		ExactCoverSolver(uint m, uint n, short matrix[], bool searchOneSolution = true);
 		bool search(int k = 0);
 		void cover(ColumnHeader *col);
 		void uncover(ColumnHeader *col);
 		std::vector<Node *> getSolution() const { return solution; };
 		void printSolution() const;
 		void printNumberOfSolutions() const;
-		int *getMatrix() const { return matrix; };
+		short *getMatrix() const { return matrix; };
 
 		// prepare matrixes that start with zero columns (such as covered grid spaces)
 		void coverZeroColumns();

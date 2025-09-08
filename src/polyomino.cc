@@ -10,7 +10,7 @@ Piece::Piece(int arr[PIECE_SIZE][PIECE_SIZE]) {
 	updateBoundingBox();
 }
 
-void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<int> &moves, std::vector<Piece> pieces, int &matrixHeight, int &matrixWidth) {
+void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, std::vector<Piece> pieces, int &matrixHeight, int &matrixWidth) {
 	int pieceCount = pieces.size();
 
 	matrixWidth = pieceCount + GRID_SIZE * GRID_SIZE;
@@ -23,7 +23,22 @@ void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], std::vector<int> &mov
 	matrixHeight = moves.size() / matrixWidth;
 }
 
-void addAllMoves(int grid[GRID_SIZE][GRID_SIZE], std::vector<int> &moves, int pieceCount, int pieceIndex, Piece piece) {
+/*
+void createPolyominoMatrix(int grid[GRID_SIZE][GRID_SIZE], int (&moves)[], std::vector<Piece> pieces, int &matrixHeight, int &matrixWidth) {
+	int pieceCount = pieces.size();
+
+	matrixWidth = pieceCount + GRID_SIZE * GRID_SIZE;
+
+	// add every possible move for every piece
+	for (int i = 0; i < pieceCount; i++) {
+		addAllMoves(grid, moves, pieceCount, i, pieces.at(i));
+	}
+
+	matrixHeight = moves.size() / matrixWidth;
+}
+*/
+
+void addAllMoves(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, int pieceCount, int pieceIndex, Piece piece) {
 	std::vector<Piece> pieceOrientations = getUniqueOrientations(piece);
 
 	for (uint i = 0; i < pieceOrientations.size(); i++) {
@@ -38,7 +53,7 @@ void addAllMoves(int grid[GRID_SIZE][GRID_SIZE], std::vector<int> &moves, int pi
 }
 
 // for a given piece, add rows to the matrix corresponding to every possible move
-void addMoveRows(int grid[GRID_SIZE][GRID_SIZE], std::vector<int> &moves, int pieceCount, int pieceIndex, Piece piece) {
+void addMoveRows(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, int pieceCount, int pieceIndex, Piece piece) {
 	for (int i = 0; i < GRID_SIZE - piece.effectiveHeight() + 1; i++) {
 			for (int j = 0; j < GRID_SIZE - piece.effectiveWidth() + 1; j++) {
 				if (!checkValidPlacement(grid, piece, i, j)) continue;
@@ -47,7 +62,7 @@ void addMoveRows(int grid[GRID_SIZE][GRID_SIZE], std::vector<int> &moves, int pi
 	}
 }
 
-void addMoveRow(int grid[GRID_SIZE][GRID_SIZE], std::vector<int> &moves, int pieceCount, int pieceIndex, Piece piece, int startI, int startJ) {
+void addMoveRow(int grid[GRID_SIZE][GRID_SIZE], std::vector<short> &moves, int pieceCount, int pieceIndex, Piece piece, int startI, int startJ) {
 	// add piece constraint
 	for (int i = 0; i < pieceCount; i++) {
 		moves.push_back(i == pieceIndex ? 1 : 0);

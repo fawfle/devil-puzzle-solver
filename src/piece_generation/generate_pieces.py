@@ -144,8 +144,8 @@ for piece in pieces:
     piece_width = (max_x - min_x) + 1;
     piece_height = (max_y - min_y) + 1;
 
-    print(piece_width);
-    print(piece_height);
+    # print(piece_width);
+    # print(piece_height);
 
     piece_matrix = [[0 for _ in range(piece_width)] for _ in range(piece_height)];
 
@@ -164,9 +164,9 @@ for piece in pieces:
 
         text += row + "\n";
 
-    text += "}\n";
+    text += "};\n";
 
-    text += f"PieceData piece{n}Data = PieceData(piece{n}Array, {piece_height}, {piece_width})\n";
+    text += f"PieceData piece{n}Data = PieceData(piece{n}Array, {piece_height}, {piece_width});\n";
 
     print(text);
 
@@ -174,5 +174,13 @@ for piece in pieces:
 
     # break
 
+pieceArrayText = "PieceData pieceDataList[PIECE_COUNT] = { ";
+
+for i in range(len(pieces)):
+    pieceArrayText += f"piece{i + 1}Data, "
+
+pieceArrayText += "};"
+
+outfile.write(pieceArrayText);
 
 # im.show();

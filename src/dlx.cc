@@ -8,8 +8,13 @@
 bool ExactCoverSolver::search(int k) {
 	// if the root header is the only column, the algorithm completes
 	// hardcoding solution size and avoiding a boolean check. Idk if it matters for performance, but this isn't a general purpose program
-	std::cout << k;
-	if (rootHeader->right == rootHeader || solution.size() == PIECE_COUNT) {
+	
+	if (k > deepestK) {
+		deepestK = k;
+		std::cout << "deepest k: " << k << std::endl;
+	}
+
+	if (rootHeader->right == rootHeader) { // || solutionSize == PIECE_COUNT
 		//printSolution();
 		// if terminate after one solution, return true
 		solutions++;
@@ -18,7 +23,8 @@ bool ExactCoverSolver::search(int k) {
 	}
 
 	// Select based on size heuristic
-	ColumnHeader* c = rootHeader->right->column; //selectSmallestColumn();
+	// ColumnHeader* c = rootHeader->right->column;
+	ColumnHeader* c = selectSmallestColumn();
 	// remove selected column
 	cover(c);
 
@@ -137,7 +143,7 @@ Node *getLinkedListItemRow(Node* startNode, int index) {
 }
 
 // create data structure. matrix is m*n elements, 2d arrays are cringe
-ExactCoverSolver::ExactCoverSolver(int m, int n, int matrix[], bool searchOneSolution) {
+ExactCoverSolver::ExactCoverSolver(uint m, uint n, short matrix[], bool searchOneSolution) {
 
 	/*
 	for (int i = 0; i < m; i++) {
@@ -154,16 +160,16 @@ ExactCoverSolver::ExactCoverSolver(int m, int n, int matrix[], bool searchOneSol
 
 	rootHeader = new ColumnHeader;
 	// add column headers
-	for (int i = 0; i < n; i++) {
+	for (uint i = 0; i < n; i++) {
 		ColumnHeader *newHeader = new ColumnHeader;
 		newHeader->column = newHeader;
 		appendToDoublyLinkedListRow(rootHeader, newHeader);
 	}
 	// add rows one at a time
-	for (int i = 0; i < m; i++) {
+	for (uint i = 0; i < m; i++) {
 		// adding first node is different. Once it's added, use it as reference to append
 		Node *rowNode = new Node;
-		for (int j = 0; j < n; j++) {
+		for (uint j = 0; j < n; j++) {
 		if (matrix[i * n + j] != 0) {
 				Node *nodeToAdd;
 				// need to add first element only
