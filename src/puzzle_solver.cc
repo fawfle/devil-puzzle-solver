@@ -1,4 +1,5 @@
 #include <chrono>
+#include <fstream>
 #include <iostream>
 
 #include "dlx.hh"
@@ -231,7 +232,8 @@ int main() {
 	
 	// return 0;
 	
-	// set color array to match solution
+	int outputSolution[GL_GRID_SIZE][GL_GRID_SIZE] = {0};
+	// set color array to match solution and solution array
 	for (uint i = 0; i < solution.size(); i++) {
 		long startIndex = solution.at(i)->row * (long)matrixWidth;
 		long pieceIndex = 0;
@@ -254,8 +256,22 @@ int main() {
 				long x, y;
 				columnToCellIndex(j, y, x);
 				colorArray[x][y] = colors[pieceIndex];
+				outputSolution[x][y] = pieceIndex + 1;
 			}
 		}
+
+		ofstream outFile("./outputSolution.txt");
+		if (outFile.is_open()) {
+			for (int i = 0; i < GL_GRID_SIZE; i++) {
+				for (int j = 0; j < GL_GRID_SIZE; j++) {
+					outFile << outputSolution[i][j] << ',';
+				}
+				outFile << "\n";
+			}
+		} else {
+			cout << "Error opening file.\n";
+		}
+		outFile.close();
 
 		//cout << endl;
 	}
