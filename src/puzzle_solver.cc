@@ -246,9 +246,6 @@ int main() {
 			}
 		}
 
-
-		//cout << "|";
-
 		for (long j = 0; j < matrixWidth - PIECE_COUNT; j++) {
 			//cout << solver.getMatrix()[startIndex + pieces.size() + j] << "";
 			long index = startIndex + (long)PIECE_COUNT + j;
@@ -260,21 +257,22 @@ int main() {
 			}
 		}
 
-		ofstream outFile("./outputSolution.txt");
-		if (outFile.is_open()) {
-			for (int i = 0; i < GL_GRID_SIZE; i++) {
-				for (int j = 0; j < GL_GRID_SIZE; j++) {
-					outFile << outputSolution[i][j] << ',';
-				}
-				outFile << "\n";
-			}
-		} else {
-			cout << "Error opening file.\n";
-		}
-		outFile.close();
 
 		//cout << endl;
 	}
+
+	ofstream outFile("./outputSolution.txt");
+	if (outFile.is_open()) {
+		for (int i = 0; i < GL_GRID_SIZE; i++) {
+			for (int j = 0; j < GL_GRID_SIZE; j++) {
+				outFile << outputSolution[j][i] << ',';
+			}
+			outFile << "\n";
+		}
+	} else {
+		cout << "Error opening file.\n";
+	}
+	outFile.close();
 
 
 	glfwInit();
