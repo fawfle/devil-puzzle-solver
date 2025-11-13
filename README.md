@@ -9,4 +9,5 @@ The program uses a brute force method solver find a solution. Specifically, it u
 ## Planned Features (that will never happen)
 Because the program uses DLX, it converts the puzzle to an exact cover matrix. Generating the matrix takes a significant portion of time which could be avoided by storing the solution. My solver is also incredibly memory (and likely by extension time) inneficient when generating the matrix.
 
+The 100pc solution:
 ![100pc image](https://raw.githubusercontent.com/fawfle/devil-puzzle-solver/refs/heads/100pc/images/100pc_solved.png)
